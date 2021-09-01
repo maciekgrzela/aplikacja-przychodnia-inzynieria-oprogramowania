@@ -1,0 +1,2554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>988</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>991</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0,51,102);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="wizytyBtn">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>-20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/calendar-5.png</normaloff>:/icons/img_rc/calendar-5.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pacjenciBtn">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>-20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/user-4.png</normaloff>:/icons/img_rc/user-4.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="kompetencjeBtn">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>-20</y>
+       <width>91</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/notebook-3.png</normaloff>:/icons/img_rc/notebook-3.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="zabiegiBtn">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>-20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/list.png</normaloff>:/icons/img_rc/list.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pracownicyBtn">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>-20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/id-card-1.png</normaloff>:/icons/img_rc/id-card-1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ustawieniaBtn">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>-20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/settings-1.png</normaloff>:/icons/img_rc/settings-1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="wylogujBtn">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>-20</y>
+       <width>81</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="images.qrc">
+       <normaloff>:/icons/img_rc/locked-1.png</normaloff>:/icons/img_rc/locked-1.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <property name="text">
+      <string>Wizyty</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Pacjenci</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>70</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Kompetencje</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>70</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Zabiegi</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>70</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Pracownicy</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>70</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Ustawienia</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>70</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Fira Sans Light</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255,255,255);
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>Wyloguj</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="menuTab">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>971</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::South</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>true</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="wizytyTab">
+     <attribute name="title">
+      <string>Wizyty</string>
+     </attribute>
+     <widget class="QCalendarWidget" name="calendarWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>50</y>
+        <width>312</width>
+        <height>183</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>260</y>
+        <width>311</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Dane wizyty</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>20</y>
+         <width>281</width>
+         <height>128</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Zabieg</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Pacjent</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Termin</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="pracownikLabel">
+            <property name="text">
+             <string>Pracownik</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_40">
+            <property name="text">
+             <string>Godzina</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QLineEdit" name="daneZabieguLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="danePacjentaLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="daneTerminuLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="danePracownikaLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="godzinaWizytyLineEdit">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="godzinyGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>10</y>
+        <width>281</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Godziny pracy</string>
+      </property>
+      <widget class="QToolButton" name="toolButton">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>07:00 - 7:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>50</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>07:30 - 08:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>50</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>08:00 - 08:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>100</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>09:00 - 09:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>08:30 - 09:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>100</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>09:30 - 10:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>10:00 - 10:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_9">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>150</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>11:00 - 11:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>150</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>10:30 - 11:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>12:30 - 13:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>11:30 - 12:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>12:00 - 12:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_13">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>250</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>14:00 - 14:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_14">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>13:00 - 13:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_15">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>250</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>13:30 - 14:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_19">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>350</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>16:30 - 17:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_20">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>400</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>17:30 - 18:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_21">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>350</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>17:00 - 17:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_22">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>400</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>18:00 - 18:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_23">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>400</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>18:30 - 19:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_24">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>350</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>16:00 - 16:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_16">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>300</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>14:30 - 15:00</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_17">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>300</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>15:00 - 15:30</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_18">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>300</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:disabled {
+	background-color: rgb(50,91,132);
+}
+QToolButton {
+background-color: rgb(0,51,102);
+border: none;
+color: rgb(255,255,255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>15:30 - 16:00</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>170</y>
+        <width>301</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>Zabiegi</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="szukajZabiegiWizytaLineEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="szukajZabiegiWizytaBtn">
+           <property name="text">
+            <string>Szukaj</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableView" name="zabiegiWizytaTableView"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>330</y>
+        <width>301</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>Pracownicy</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="szukajPracownicyWizytaLineEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="szukajPracownicyWizytaBtn">
+           <property name="text">
+            <string>Szukaj</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableView" name="pracownicyWizytaTableView"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>10</y>
+        <width>301</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>Pacjenci</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="szukajPacjenciWizytaLineEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="szukajPacjenciWizytaBtn">
+           <property name="text">
+            <string>Szukaj</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTableView" name="pacjenciWizytaTableView"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="operacjeGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>427</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Operacje</string>
+      </property>
+      <widget class="QWidget" name="">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>16</y>
+         <width>158</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_24">
+        <item>
+         <widget class="QPushButton" name="umowWizyteBtn">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+          <property name="text">
+           <string>Umów wizytę</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="wyczyscWizyteBtn">
+          <property name="text">
+           <string>Wyczyść</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pacjenciTab">
+     <attribute name="title">
+      <string>Pacjenci</string>
+     </attribute>
+     <widget class="QTableView" name="pacjenciTableView">
+      <property name="geometry">
+       <rect>
+        <x>7</x>
+        <y>60</y>
+        <width>951</width>
+        <height>192</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="danePacjentaGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>951</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Edycja danych pacjenta:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>249</x>
+         <y>40</y>
+         <width>177</width>
+         <height>102</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>Imię:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>Nazwisko:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>E-mail:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>Telefon</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLineEdit" name="imiePacjenciLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="nazwiskoPacjenciLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="emailPacjenciLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="telefonPacjenciLineEdit"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>70</y>
+         <width>271</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_23">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>Ulica / Numer:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kod / Miejscowość&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLineEdit" name="ulicaPacjenciLineEdit"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="numerPacjenciLineEdit">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <item>
+             <widget class="QLineEdit" name="kodPacjenciLineEdit">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>16777215</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="miejscowoscPacjenciLineEdit"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>20</y>
+        <width>261</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Pacjent:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="szukajPacjentaLineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="szukajPacjentaBtn">
+         <property name="text">
+          <string>Szukaj</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>457</y>
+        <width>320</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QPushButton" name="pacjenciDodajBtn">
+         <property name="text">
+          <string>Dodaj</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="modyfikujDanePacjentaBtn">
+         <property name="text">
+          <string>Modyfikuj</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pacjenciUsunBtn">
+         <property name="text">
+          <string>Usuń</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pacjenciWyczyscBtn">
+         <property name="text">
+          <string>Wyczyść</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="kompetencjeTab">
+     <attribute name="title">
+      <string>Kompetencje</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>4</y>
+        <width>471</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pracownicy:</string>
+      </property>
+      <widget class="QTableView" name="pracownicyKompetencjeTableView">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>451</width>
+         <height>211</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>250</y>
+        <width>471</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Przeglądaj / redukuj kompetencje pracownika:</string>
+      </property>
+      <widget class="QTableView" name="przeglKompetencjiTableView">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>451</width>
+         <height>201</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>250</y>
+        <width>461</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Poszerz kompetencje pracownika:</string>
+      </property>
+      <widget class="QTableView" name="rozszKompetencjiTableView">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>441</width>
+         <height>201</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>50</y>
+        <width>255</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <widget class="QLabel" name="label_21">
+         <property name="text">
+          <string>Pracownik</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="szukajPracownikaKompetencjeLineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="szukajPracownikaKompetencjeBtn">
+         <property name="text">
+          <string>Szukaj</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="danePracKompetencjeGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>251</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>GroupBox</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>203</width>
+         <height>76</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>Imię:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_24">
+            <property name="text">
+             <string>Nazwisko:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>Kod logowania:</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <item>
+           <widget class="QLineEdit" name="imiePracKompLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="nazwiskoPracKompLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="kodPracKompLineEdit"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="zabiegiTab">
+     <attribute name="title">
+      <string>Zabiegi</string>
+     </attribute>
+     <widget class="QGroupBox" name="daneZabieguGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>451</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Zarządzaj zabiegiem:</string>
+      </property>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>150</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Opis:</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="opisZabiegiLineEdit">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>150</y>
+         <width>201</width>
+         <height>131</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>50</y>
+         <width>251</width>
+         <height>76</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_13">
+          <item>
+           <widget class="QLabel" name="label_26">
+            <property name="text">
+             <string>Nazwa:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_27">
+            <property name="text">
+             <string>Cena:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_28">
+            <property name="text">
+             <string>Czas trwania:</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_12">
+          <item>
+           <widget class="QLineEdit" name="nazwaZabiegiLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="cenaZabiegiLineEdit">
+            <property name="inputMask">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="czasZabiegiLineEdit">
+            <property name="inputMask">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>320</y>
+         <width>320</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item>
+         <widget class="QPushButton" name="zabiegiDodajBtn">
+          <property name="text">
+           <string>Dodaj</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="zabiegiModyfikujBtn">
+          <property name="text">
+           <string>Modyfikuj</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="zabiegiUsunBtn">
+          <property name="text">
+           <string>Usuń</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="zabiegiWyczyscBtn">
+          <property name="contextMenuPolicy">
+           <enum>Qt::DefaultContextMenu</enum>
+          </property>
+          <property name="text">
+           <string>Wyczyść</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QTableView" name="zabiegiTableView">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>10</y>
+        <width>461</width>
+        <height>471</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>40</y>
+        <width>242</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <item>
+        <widget class="QLabel" name="label_25">
+         <property name="text">
+          <string>Zabieg:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="szukajZabieguLineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="szukajZabieguBtn">
+         <property name="text">
+          <string>Szukaj</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pracownicyTab">
+     <attribute name="title">
+      <string>Pracownicy</string>
+     </attribute>
+     <widget class="QGroupBox" name="danePracownikaGroupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>441</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Edycja danych pracownika:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>40</y>
+         <width>203</width>
+         <height>76</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_15">
+          <item>
+           <widget class="QLabel" name="label_32">
+            <property name="text">
+             <string>Imię:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_31">
+            <property name="text">
+             <string>Nazwisko:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_33">
+            <property name="text">
+             <string>Kod logowania:</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <item>
+           <widget class="QLineEdit" name="pracownikImieLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="pracownikNazwiskoLineEdit"/>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="pracownikKodLogowaniaLineEdit"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>20</y>
+         <width>77</width>
+         <height>112</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_19">
+        <item>
+         <widget class="QPushButton" name="dodajPracownikaPracownicyBtn">
+          <property name="text">
+           <string>Dodaj</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="modyfikujPracownikaPracownicyBtn">
+          <property name="text">
+           <string>Modyfikuj</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="usunPracownikaBtn">
+          <property name="text">
+           <string>Usuń</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pracownikWyczyscBtn">
+          <property name="text">
+           <string>Wyczyść</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>441</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Godziny pracy:</string>
+      </property>
+      <widget class="QGroupBox" name="godzinyPracownikaGroupBox">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>30</y>
+         <width>211</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Godziny pracownika</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>30</y>
+          <width>181</width>
+          <height>138</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_21">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_17">
+           <item>
+            <widget class="QLabel" name="label_34">
+             <property name="text">
+              <string>Poniedziałek</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_35">
+             <property name="text">
+              <string>Wtorek</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_36">
+             <property name="text">
+              <string>Środa</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_37">
+             <property name="text">
+              <string>Czwartek</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_38">
+             <property name="text">
+              <string>Piątek</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_16">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_16">
+             <item>
+              <widget class="QLineEdit" name="ponOd"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="ponDo"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_17">
+             <item>
+              <widget class="QLineEdit" name="wtOd"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="wtDo"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_18">
+             <item>
+              <widget class="QLineEdit" name="srOd"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="srDo"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_19">
+             <item>
+              <widget class="QLineEdit" name="czwOd"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="czwDo"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_20">
+             <item>
+              <widget class="QLineEdit" name="ptOd"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="ptDo"/>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_11">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>111</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Szablony godzin</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_18">
+         <item>
+          <widget class="QPushButton" name="ustawSchemat715">
+           <property name="text">
+            <string>07:00 - 15:00</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ustawSchemat816">
+           <property name="text">
+            <string>08:00 - 16:00</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ustawSchemat917">
+           <property name="text">
+            <string>09:00 - 17:00</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ustawSchemat1018">
+           <property name="text">
+            <string>10:00 - 18:00</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ustawSchemat1119">
+           <property name="text">
+            <string>11:00 - 19:00</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>90</y>
+         <width>77</width>
+         <height>54</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_20">
+        <item>
+         <widget class="QPushButton" name="godzinyPracyZatwierdzBtn">
+          <property name="text">
+           <string>Zatwierdź</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="godzinyPracyWyczyscBtn">
+          <property name="text">
+           <string>Wyczyść</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QTableView" name="pracownicyTableView">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>10</y>
+        <width>491</width>
+        <height>471</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>258</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <item>
+        <widget class="QLabel" name="label_30">
+         <property name="text">
+          <string>Pracownik:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="szukajPracownikaLineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="szukajPracownikaBtn">
+         <property name="text">
+          <string>Szukaj</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ustawieniaTab_2">
+     <attribute name="title">
+      <string>Ustawienia</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>-2</y>
+        <width>721</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::South</enum>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Strona</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Strona</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>Strona</string>
+       </attribute>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>251</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0,51,102);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>251</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(50,91,132);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>16</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="images.qrc">:/icons/img_rc/user-3.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="userNameLabel">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>30</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Fira Sans Light</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255,255,255);</string>
+        </property>
+        <property name="text">
+         <string>Użytkownik</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>140</y>
+         <width>251</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_21">
+        <item>
+         <widget class="QPushButton" name="pushButton_25">
+          <property name="font">
+           <font>
+            <family>Fira Sans Light</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255,255,255);
+border: none;</string>
+          </property>
+          <property name="text">
+           <string>Zmień dane użytkownika</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_26">
+          <property name="font">
+           <font>
+            <family>Fira Sans Light</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255,255,255);
+border: none;</string>
+          </property>
+          <property name="text">
+           <string>Zmień dane przedsiębiorstwa</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_27">
+          <property name="font">
+           <font>
+            <family>Fira Sans Light</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255,255,255);
+border: none;</string>
+          </property>
+          <property name="text">
+           <string>Przeglądaj statystyki</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_28">
+          <property name="font">
+           <font>
+            <family>Fira Sans Light</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255,255,255);
+border: none;</string>
+          </property>
+          <property name="text">
+           <string>Zmień hasło</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_29">
+          <property name="font">
+           <font>
+            <family>Fira Sans Light</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255,255,255);
+border: none;</string>
+          </property>
+          <property name="text">
+           <string>O Programie</string>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
